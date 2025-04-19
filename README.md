@@ -15,12 +15,17 @@ No code needed – just enable it in your **Azure DevOps Project** via the Artif
 ```
 az login
 az extension add --name azure-devops
+az extension update --name azure-devops
+brew update && brew upgrade azure-cli
+az devops configure --defaults organization=https://dev.azure.com/YOUR_ORG project=YOUR_PROJECT
 ```
 
 ### ✅ **2. Create a Feed**
-```bash
 # Azure CLI - Create a new feed
+```bash
 az artifacts feed create --name my-feed
+az artifacts feed create --name my-feed --description "My private feed"
+az artifacts feed create --name my-feed --debug
 ```
 
 ---
