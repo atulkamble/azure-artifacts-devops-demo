@@ -34,6 +34,11 @@ az artifacts feed create --name my-feed --debug
 ```
 
 ---
+### Set PAT
+```
+export AZURE_DEVOPS_EXT_ARTIFACTTOOL_PATVAR=8N76DGL6BWhETE5txLJkTMFfzaBEPjcjgR0ASLmJur0kS7PVj3d4JQQJ99BDACAAAAAAAAAAAAASAZDO3FzF
+```
+
 
 ### ✅ **3. Publish a Universal Package**
 ```bash
