@@ -19,6 +19,11 @@ az extension update --name azure-devops
 brew update && brew upgrade azure-cli
 az devops configure --defaults organization=https://dev.azure.com/YOUR_ORG project=YOUR_PROJECT
 ```
+```
+az devops configure --defaults \
+  organization=https://dev.azure.com/CloudnauticPune \
+  project=project
+```
 
 ### ✅ **2. Create a Feed**
 # Azure CLI - Create a new feed
