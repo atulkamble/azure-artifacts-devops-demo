@@ -2,6 +2,9 @@
 
 **Basic to advanced overview of Azure Artifacts** with sample code and usage examples in CI/CD using **Azure Pipelines**. Azure Artifacts lets you create, host, and share packages (NuGet, npm, Maven, Python, Universal) from public and private sources.
 
+// References: https://learn.microsoft.com/en-gb/azure/devops/artifacts/quickstarts/universal-packages?view=azure-devops#prerequisites
+
+
 ---
 
 ## 📦 **Azure Artifacts – Topics Covered**
