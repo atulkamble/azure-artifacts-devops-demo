@@ -11,6 +11,12 @@ No code needed – just enable it in your **Azure DevOps Project** via the Artif
 
 ---
 
+### Install extension
+```
+az login
+az extension add --name azure-devops
+```
+
 ### ✅ **2. Create a Feed**
 ```bash
 # Azure CLI - Create a new feed
